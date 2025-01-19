@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px #646cff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust size as needed */
+    width: 80px;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #646cff;
+  }
+  

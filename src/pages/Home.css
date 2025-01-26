@@ -1,7 +1,7 @@
 .home-container{
     width: 80%;
     margin: auto;
-    padding-top: 80px;
+    background-color: #999;
 }
 
 .home-container h3{
@@ -10,20 +10,20 @@
     font-size: 2rem;
     background-color: #646cff;
     padding: 1rem;
+    z-index: 99;
 }
 
 .home-categories{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 30px;
-    background-color: #999;
     padding: 1rem;
     margin: auto;
 }
 
 .home-categories .category{
-    width: 200px;
-    height: auto;
+    /* width: 200px;
+    height: auto; */
     cursor: pointer;
     background-color: antiquewhite;
     border-radius: 20px;
@@ -46,6 +46,36 @@
     text-align: center;
     font-weight: 500;
     padding: 0.5rem;
+}
+
+
+.shop-by-category{
+    margin-top: 80px;
+}
+
+.product .category .prev-price{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-weight: 100;
+    color: #999;
+}
+
+.product .category .curr-price{
+    font-weight: 700;
+}
+
+.product .category p{
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.product-name{
+    color: #333;
+}
+
+.home-container .product{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 

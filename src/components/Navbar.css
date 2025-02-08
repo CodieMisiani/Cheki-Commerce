@@ -36,4 +36,48 @@
   .nav-links a:hover {
     color: #646cff;
   }
+
+  .sign .signing{
+    margin-left: 10px;
+  }
+
+  .sign span{
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+
+  .cart-icon svg {
+    font-size: 1.3rem; /* Adjust as needed */
+    position: relative;
+  }
+
+  .sign-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .count {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+  }
+
+  .cart-icon-size {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  
   
